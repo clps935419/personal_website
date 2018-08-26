@@ -124,11 +124,13 @@ body{
     @include ipone{
         background: #000;
         text-align: center;
-        font-size: 22px;
+        font-size: 18px;
         color: white;
         height: 50px;
         line-height: 50px;
         margin-top: 0;
+        font-weight: bolder;
+        letter-spacing: 9px;
     }
     h1{
         color: white;
