@@ -519,7 +519,7 @@ body {
   -webkit-box-pack: start;
   -ms-flex-pack: start;
   justify-content: flex-start;
-  margin-left: 50px; }
+  margin-left: 0px; }
   @media (max-width: 415px) {
     .social_icon {
       right: 0;
