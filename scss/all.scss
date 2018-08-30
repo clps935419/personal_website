@@ -407,23 +407,24 @@ body{
 .work_but{
     grid-column: 1/13;
     grid-row: 15;
+    margin: 0 auto;
     margin-top: -17px;
     @include ipone{
         margin: 0 ;
         margin-bottom: 50px;
     }
     a{
-        display: block;
+        display: inline-block;
         text-align: center;
         line-height: 35px;
-        width: 180px;
+        width: 200px;
         height: 35px;
         letter-spacing: 2px;
         background-color: #f2f4f7;
         box-shadow: 0px -1px 15px 0 rgba(0, 0, 0, 0.35);
         text-decoration: none;
         color: #010101;
-        margin: 0 auto;
+        margin-left: 15px;
         @include ipone{
             margin: 0 auto;
         }
